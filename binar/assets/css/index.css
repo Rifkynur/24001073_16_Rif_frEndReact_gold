@@ -1,0 +1,583 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  background-color: #f1f3ff;
+}
+.container {
+  padding-inline: 8rem;
+}
+.navbar {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-items {
+  display: flex;
+}
+.navbar-items li {
+  padding-inline: 2rem;
+}
+.nav-logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+.bcr {
+  display: none;
+}
+.navbar .hamburger-btn {
+  display: none;
+}
+/* hero Style */
+.hero {
+  display: flex;
+  align-items: center;
+  padding-inline-end: 0;
+  padding-top: 2rem;
+}
+.hero-left h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.hero-left p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.hero-left button {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #5cb85f;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+/* OUR SERVICES */
+.our-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.left-services {
+  width: 459px;
+  height: 428px;
+}
+
+.right-services {
+  width: 468px;
+}
+.right-services h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.right-services p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.right-services ul {
+  padding: 0;
+}
+.right-services ul li {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+/* WHY US STYLE */
+.why-us {
+  padding-top: 100px;
+}
+.why-us-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.why-us-title p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.why-us-card-wrapper {
+  display: flex;
+  margin-top: 40px;
+  /* background-color: #5cb85f; */
+  justify-content: space-betwen;
+  gap: 1.8rem;
+}
+.why-us-card {
+  border: 1px solid #d0d0d0;
+  width: 268px;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.why-us-card h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.why-us-card p {
+  width: 220px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+/* SECTION TESTIMONIAL */
+.testimonial {
+  padding-top: 100px;
+}
+.testimonial-title {
+  text-align: center;
+}
+.testimonial-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.testimonial-title p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.testimonial-card-wrapper {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  left: -300px;
+  margin-top: 40px;
+}
+.testimonial-card {
+  margin-inline: auto;
+  width: 619px;
+  background-color: #f1f3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 4px #000000 15%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.testimonial-card img {
+  width: 80px;
+  height: 80px;
+  padding-inline: 46px;
+}
+.testimonial-card-inner {
+  padding-block-start: 69px;
+  padding-block-end: 50px;
+  width: 415px;
+}
+.testimonial-card-inner .star {
+  color: #f9cc00;
+}
+.testimonial-card-inner p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.testimonial-card-inner h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.testimonial-btn-wrapper {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.testimonial-btn {
+  width: 32px;
+  cursor: pointer;
+  height: 32px;
+  border: 1px solid black;
+  line-height: 32px;
+  text-align: center;
+  transition: 0.2s ease;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+}
+.testimonial-btn:hover {
+  background-color: #5cb85f;
+  border-color: #5cb85f;
+  color: #fff;
+}
+/* SEWA MOBIL STYLE */
+.sewa-mobil {
+  margin-top: 100px;
+  text-align: center;
+  padding-block: 4rem;
+  background-color: #0d28a6;
+  color: #fff;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+.sewa-mobil h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.sewa-mobil p {
+  margin-inline: auto;
+  font-size: 14px;
+  max-width: 468px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.sewa-mobil button {
+  background-color: #5cb85f;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin-top: 52px;
+}
+/* FAQ STYLE */
+.faq {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.faq-title p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.faq-lists ul {
+  width: 668px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.faq-lists ul li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d4d4d4;
+  padding-inline: 24px;
+  padding-block: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/* FOOTER STYLE */
+.footer {
+  display: flex;
+  justify-content: start;
+  margin-top: 150px;
+  gap: 86px;
+}
+
+.footer-address {
+  width: 268px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  /* background-color: #0d28a6; */
+}
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* background-color: #0d28a6; */
+  padding: 0;
+}
+.footer-nav ul li {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-social h5 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+.social-link-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #0d28a6;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.copyright h5 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.copyright .copyright-logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    padding-inline: 2rem;
+  }
+  .navbar-items li {
+    padding-inline: 1rem;
+  }
+  .hero {
+    flex-wrap: wrap;
+    padding-right: 0;
+    /* background-color: #0d28a6; */
+  }
+  .hero-left {
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
+  }
+  .hero-right {
+    /* background-color: #5cb85f; */
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 2rem;
+  }
+  .hero-right img {
+    width: 100%;
+    margin-right: 0;
+  }
+  .our-services {
+    /* background-color: #5cb85f; */
+    gap: 40px;
+    justify-content: start;
+  }
+  .left-services {
+    /* background-color: #0d28a6; */
+    margin-inline: auto;
+    width: 359px;
+    height: 328px;
+  }
+  .left-services img {
+    width: 100%;
+  }
+  .right-services {
+    /* background-color: #0d28a6; */
+    padding-left: 2rem;
+    width: 600px;
+  }
+  .why-us {
+    padding-top: 30px;
+  }
+  .why-us-card-wrapper {
+    flex-wrap: wrap;
+    /* background-color: #0d28a6; */
+    justify-content: space-evenly;
+  }
+  .testimonial {
+    padding-top: 30px;
+    padding-inline: 2rem;
+  }
+  .testimonial-title {
+    text-align: left;
+  }
+  .testimonial-card-wrapper {
+    /* position: static;
+    flex-wrap: wrap; */
+    left: -100px;
+    gap: 1rem;
+  }
+  .testimonial-card {
+    width: 350px;
+  }
+  .testimonial-card img {
+    width: 50px;
+    height: 50px;
+    padding-inline: 20px;
+  }
+  .testimonial-card-inner {
+    padding-block: 20px;
+    padding-inline-end: 10px;
+  }
+  .testimonial-card-inner .star {
+    font-size: 12px;
+  }
+  .testimonial-card-inner p {
+    font-size: 12px;
+  }
+  .testimonial-card-inner h5 {
+    font-size: 12px;
+  }
+  .sewa-mobil {
+    margin-top: 30px;
+  }
+  .faq {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .faq-lists ul {
+    padding-inline-start: 0;
+  }
+  .footer {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    padding-inline: 1rem;
+  }
+  .navbar-nav {
+    position: fixed;
+    z-index: 100;
+    width: 180px;
+    right: -200px;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+  }
+  .navbar-nav ul {
+    display: block;
+    padding: 0;
+    /* background-color: #0d28a6; */
+  }
+  .navbar-nav ul li {
+    /* background-color: #5cb85f; */
+    padding: 1rem;
+  }
+  .bcr {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+  }
+  .navbar .hamburger-btn {
+    display: block;
+    font-size: 24px;
+  }
+  .hero {
+    padding-right: 0;
+  }
+  .hero-left {
+    margin: 0;
+    text-align: left;
+    /* background-color: #0d28a6; */
+  }
+  .hero .hero-right {
+    margin: 0;
+    margin-top: 24px;
+    width: 100%;
+    /* background-color: #0d28a6; */
+  }
+  .our-services {
+    padding-top: 60px;
+    gap: 24px;
+    padding-inline-end: 1rem;
+  }
+  .left-services {
+    width: 252px;
+    height: 228px;
+    padding-bottom: 0;
+    /* background-color: #5cb85f; */
+  }
+  .right-services {
+    width: 100%;
+    /* background-color: #0d28a6; */
+    margin-top: 0;
+  }
+  .why-us-card {
+    width: 100%;
+  }
+  .testimonial-card-wrapper {
+    left: 0;
+    gap: 50px;
+  }
+  .testimonial-card {
+    width: 100%;
+  }
+  .sewa-mobil h2 {
+    font-size: 24px;
+    width: 212px;
+    margin-inline: auto;
+    line-height: 36px;
+  }
+  .sewa-mobil p {
+    width: 212px;
+    margin-inline: auto;
+    margin-bottom: 0;
+  }
+  .sewa-mobil button {
+    margin-top: 32px;
+  }
+  .faq-lists ul {
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 20px;
+  }
+  .footer-address {
+    padding-bottom: 0;
+  }
+  .footer-nav ul {
+    gap: 8px;
+  }
+  .footer-social h5 {
+    margin-top: 1rem;
+  }
+  .copyright h5 {
+    margin-top: 1rem;
+  }
+}
